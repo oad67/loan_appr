@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-from sklearn.tree import DecisionTreeClassifier
+#from sklearn.tree import DecisionTreeClassifier
 
 import xgboost as xgb
 
