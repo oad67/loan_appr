@@ -1,7 +1,10 @@
 import streamlit as st
 import pandas as pd
 
+from sklearn.tree import DecisionTreeClassifier
+
 import xgboost as xgb
+
 import plotly.express as px
 import joblib
 
