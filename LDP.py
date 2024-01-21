@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-#from sklearn.tree import DecisionTreeClassifier
+from sklearn.tree import DecisionTreeClassifier
 
 import xgboost as xgb
 
@@ -78,7 +78,7 @@ x=pd.concat([pvd,hvd,z],axis=1)
 
 #st.write(x)
 
-model=joblib.load('Loan_Def_Model')
+model=joblib.load('Loan_Def_Model-2')
 
 p=model.predict(x)
 
