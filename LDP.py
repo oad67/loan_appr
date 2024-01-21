@@ -78,7 +78,7 @@ x=pd.concat([pvd,hvd,z],axis=1)
 
 #st.write(x)
 
-model=joblib.load('Loan_Def_Model-2')
+model=joblib.load('Loan_Def_Model')
 
 p=model.predict(x)
 
